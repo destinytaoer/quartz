@@ -17,7 +17,7 @@
     "format": "npx prettier . --write",
     "test": "tsx ./quartz/util/path.test.ts",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
-    "sync": "git submodule update"
+    "sync": " foreach git pull --rebase origin main"
   },
   "engines": {
     "node": ">=18.14"
