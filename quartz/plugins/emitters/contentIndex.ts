@@ -57,7 +57,6 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex): string {
       <title>${cfg.pageTitle}</title>
       <link>${root}</link>
       <description>Recent content on ${cfg.pageTitle}</description>
-      <generator>Quartz -- quartz.jzhao.xyz</generator>
       <atom:link href="${root}/index.xml" rel="self" type="application/rss+xml"/>
     </channel>
     ${items}

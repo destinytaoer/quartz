@@ -1,12 +1,11 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "quartz",
+  "description": "花园生成器",
   "private": true,
   "version": "4.0.9",
   "type": "module",
   "author": "jackyzha0 <j.zhao2k19@gmail.com>",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
   "repository": {
     "type": "git",
     "url": "https://github.com/jackyzha0/quartz.git"
@@ -24,12 +23,9 @@
     "node": ">=18.14"
   },
   "keywords": [
-    "site generator",
-    "ssg",
     "digital-garden",
     "markdown",
-    "blog",
-    "quartz"
+    "blog"
   ],
   "bin": {
     "quartz": "./quartz/bootstrap-cli.mjs"
