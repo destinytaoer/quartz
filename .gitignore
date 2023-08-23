@@ -8,3 +8,4 @@ tsconfig.tsbuildinfo
 .quartz-cache
 private/
 .idea
+package-lock.json
