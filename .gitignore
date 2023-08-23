@@ -9,3 +9,4 @@ tsconfig.tsbuildinfo
 private/
 .idea
 package-lock.json
+pnpm-lock.yaml

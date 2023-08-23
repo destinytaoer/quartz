@@ -12,6 +12,8 @@
     "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
+    "dev": "quartz build --serve",
+    "build": "quartz build",
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx ./quartz/util/path.test.ts",
