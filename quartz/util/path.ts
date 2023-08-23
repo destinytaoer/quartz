@@ -61,6 +61,10 @@ export function slugifyFilePath(fp: FilePath, excludeExt?: boolean): FullSlug {
     slug = slug.replace(/_index$/, "index")
   }
 
+  if (_endsWith(slug, "README")) {
+    slug = slug.replace(/README$/, "index")
+  }
+
   return (slug + ext) as FullSlug
 }
 
