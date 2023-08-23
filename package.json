@@ -98,7 +98,11 @@
     "@types/yargs": "^17.0.24",
     "esbuild": "^0.18.11",
     "prettier": "^3.0.0",
+    "shiki": "^0.14.3",
     "tsx": "^3.12.7",
     "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "shiki": "^0.14.3"
   }
 }
